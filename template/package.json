@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "{{ name }}",
+    "name": "temp",
     "version": "0.0.0",
     "license": "MIT",
     "scripts": {
@@ -31,8 +31,9 @@
         "build/*"
     ],
     "devDependencies": {
-        "@types/webpack-env": "^1.13.9",
         "@types/jest": "^23.3.10",
+        "@types/webpack-env": "^1.13.9",
+        "css-loader": "^1.0.1",
         "husky": "^1.2.0",
         "identity-obj-proxy": "^3.0.0",
         "jest": "^23.6.0",
@@ -43,14 +44,8 @@
         "prettier": "^1.15.3",
         "ts-jest": "^23.10.5",
         "ts-loader": "^3.5.0",
-        "tslint": "^5.11.0",
-        "tslint-config-prettier": "^1.17.0",
-        "tslint-consistent-codestyle": "^1.14.1",
-        "tslint-eslint-rules": "^5.4.0",
-        "tslint-react": "^3.6.0",
         "typescript": "^3.2.1",
-        "typings-for-css-modules-loader": "^1.7.0",
-        "css-loader": "^1.0.1"
+        "typings-for-css-modules-loader": "^1.7.0"
     },
     "dependencies": {
         "preact": "^10.0.0",
@@ -60,8 +55,7 @@
         "preact-router": "^3.0.1"
     },
     "peerDependencies": {
-        "prettier": ">1.0.0",
-        "tslint": ">5.0.0"
+        "prettier": ">1.0.0"
     },
     "jest": {
         "transform": {
