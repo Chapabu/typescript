@@ -7,7 +7,8 @@ module.exports = {
     'plugin:@typescript-eslint/recommended',
     'airbnb',
     'airbnb/hooks',
-    'plugin:import/typescript'
+    'plugin:import/typescript',
+    'plugin:prettier/recommended'
   ],
   env: {
     browser: true,
