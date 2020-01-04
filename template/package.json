@@ -33,6 +33,8 @@
     "devDependencies": {
         "@types/jest": "^23.3.10",
         "@types/webpack-env": "^1.13.9",
+        "@typescript-eslint/eslint-plugin": "^2.14.0",
+        "@typescript-eslint/parser": "^2.14.0",
         "css-loader": "^1.0.1",
         "eslint": "^6.1.0",
         "eslint-config-airbnb": "^18.0.1",
