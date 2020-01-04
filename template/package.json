@@ -24,12 +24,6 @@
             "git add"
         ]
     },
-    "eslintConfig": {
-        "extends": "eslint-config-aerian"
-    },
-    "eslintIgnore": [
-        "build/*"
-    ],
     "devDependencies": {
         "@types/jest": "^23.3.10",
         "@types/webpack-env": "^1.13.9",
