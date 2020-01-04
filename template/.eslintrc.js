@@ -24,7 +24,10 @@ module.exports = {
     'react/prop-types': 0,
     'react/jsx-filename-extension': [1, { extensions: ['.jsx', '.tsx'] }],
     'react/no-unknown-property': [1, { ignore: ['class'] }],
-    'react/jsx-one-expression-per-line': 0
+    'import/no-extraneous-dependencies': [
+      'error',
+      { devDependencies: ['!**/*.test.js', '!**/*.spec.js'] }
+    ]
   },
   overrides: [
     {
