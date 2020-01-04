@@ -17,6 +17,7 @@ module.exports = {
     // Disable whilst we wait for the fix for
     // https://github.com/benmosher/eslint-plugin-import/issues/1558 to be released.
     'import/extensions': 0,
+    'arrow-body-style': 0,
     'react/prop-types': 0,
     'react/jsx-filename-extension': [1, { extensions: ['.jsx', '.tsx'] }],
     'react/no-unknown-property': [1, { ignore: ['class'] }],
